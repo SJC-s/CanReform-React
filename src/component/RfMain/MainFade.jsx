@@ -33,7 +33,7 @@ export default function MainFade() {
     return (
         <div className="container">
             <div className='logoimg'>
-                <img src={`/upload/logo_sample.svg`} alt='logo'/>
+                <img src={`/upload/CanReform.png`} alt='logo'/>
             </div>
             <div className="fader">
                 <button className="prev" onClick={goToPrevious}>

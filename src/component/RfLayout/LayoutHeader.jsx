@@ -35,7 +35,7 @@ export default function LayoutHeader({ isLoggedIn, setIsLoggedIn }) {
                     <div className="d-flex justify-content-between align-items-center header-custom">
                         <SpreadBtn />
                         <div className="logo justify-content-center">
-                            <img src="/upload/logo_sample.svg" alt="LOGO" className="logo-image" onClick={()=>navigate('/')}/>
+                            <img src="/upload/CanReform.png" alt="LOGO" className="logo-image" onClick={()=>navigate('/')}/>
                         </div>
                         <Nav className="justify-content-end gap-2 nav-custom">
                             {!isLoggedIn ? (

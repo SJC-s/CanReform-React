@@ -7,7 +7,7 @@ export default function MainPage() {
     return (
         <>
             <div className='logoimg'>
-                <img src={`/upload/logo_sample.svg`} alt='logo' onClick={()=>{window.location.href='/'}}/>
+                <img src={`/upload/CanReform.png`} alt='logo' onClick={()=>{window.location.href='/'}}/>
             </div>
             <MainSlide/>
             <MainScroll/>
